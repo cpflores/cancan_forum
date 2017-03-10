@@ -1,8 +1,8 @@
-<h1>Forum</h1>
-
+<h1>FORUM</h1>
 <%= link_to 'New Question', new_question_path %>
 
 <br>
+<%= flash[:alert] %>
 <br>
 
 <% @questions.each do |question| %>
